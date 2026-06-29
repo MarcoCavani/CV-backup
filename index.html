@@ -2,64 +2,131 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Marco Cavani - IT Analyst</title>
+<title>Marco Cavani - Resume</title>
 
 <style>
     body {
-        font-family: Arial, sans-serif;
-        margin: 40px;
-        color: #222;
-        line-height: 1.4;
-    }
+    /* Rule: Clean, highly readable sans-serif font */
+    font-family: Calibri, Arial, Helvetica, sans-serif;
+    /* Rule: Font size between 10-12pt for body (15px ≈ 11pt) */
+    font-size: 15px; 
+    /* Rule: Generous line spacing to let text breathe */
+    line-height: 1.25; 
+    margin: 40px auto;
+    max-width: 800px; /* Centers the content beautifully on wide screens */
+    color: #222;
+}
 
-    h1, h2, h3 {
-        margin-bottom: 5px;
-    }
+/* Header Typography Scale */
+h1 {
+    font-size: 24px; /* Strong, clear name presentation */
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
 
-    .section {
-        margin-bottom: 20px;
-    }
+h2 {
+    font-size: 16px; /* Professional section header scale */
+    border-bottom: 2px solid #ddd; /* Clean separation line for sections */
+    padding-bottom: 3px;
+    margin-top: 25px;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    color: #111;
+}
 
-    .job {
-        margin-bottom: 15px;
-    }
+h3 {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
 
-    .title {
-        font-weight: bold;
-    }
+p, ul {
+    margin-top: 0;
+    margin-bottom: 12px;
+}
 
-    .sub {
-        font-size: 14px;
-        color: #555;
-    }
+li {
+    margin-bottom: 4px; /* Prevents tightly bunched list items */
+}
 
-    ul {
-        margin-top: 5px;
-    }
+.section {
+    margin-bottom: 25px;
+}
 
-    .download-btn {
-        margin-top: 30px;
-        padding: 12px 20px;
-        background-color: #1a73e8;
-        color: white;
-        border: none;
-        cursor: pointer;
-        font-size: 16px;
-        border-radius: 5px;
-    }
+.job {
+    margin-bottom: 18px;
+}
 
-    .download-btn:hover {
-        background-color: #0f5bd3;
-    }
+.title {
+    font-weight: bold;
+    font-size: 15px;
+}
 
-    @media print {
-        .no-print {
-            display: none;
-        }
-        body {
-            margin: 0;
-        }
+.sub {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 6px;
+}
+
+/* Cleaned Up Certification Tables */
+.cert-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 8px 0 20px 0;
+    font-size: 13px; /* Slightly smaller to neatly contain long strings of text/IDs */
+}
+
+.cert-table th, .cert-table td {
+    text-align: left;
+    padding: 5px 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.cert-table th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+    color: #444;
+}
+
+.vendor-header {
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 18px;
+    color: #1a73e8; /* Retaining a professional touch of blue */
+}
+
+/* UI Elements */
+.download-btn {
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+.download-btn:hover {
+    background-color: #0f5bd3;
+}
+
+/* Print Optimization Styles */
+@media print {
+    .no-print {
+        display: none;
     }
+    body {
+        margin: 0;
+        font-size: 14px; /* Slightly crisper sizing adjustments for paper print outs */
+        line-height: 1.2;
+    }
+    h2 {
+        border-bottom-color: #999;
+    }
+}
 </style>
 </head>
 
@@ -67,42 +134,51 @@
 
 <h1>MARCO CAVANI</h1>
 <p>
-IT Analyst | Cybersecurity & Support Background<br>
-Perth, WA | 0468 825 323 | cavaniaustralia@gmail.com | marcoweb.org
+Information Security Officer<br>
+Perth, WA | 0468 825 323 | cavaniaustralia@gmail.com | <a href="https://marcoweb.org" target="_blank">marcoweb.org</a> | <a href="https://www.linkedin.com/in/marcocavani/" target="_blank">linkedin.com/marcocavani</a> | <a href="https://skillsoft.digitalbadges.skillsoft.com/profile/marcocavani613898/wallet" target="_blank">Verified Digital Wallet</a>
 </p>
 
 <div class="section">
 <h2>Professional Summary</h2>
 <p>
-IT Service Desk and Cybersecurity professional with experience in Level 1–2 support, incident management, system troubleshooting, and IT governance. Background in service desk operations, technical support, and cyber risk analysis across enterprise and hospitality environments. Strong ability to diagnose technical issues, manage tickets, support end users, and work with Microsoft-based environments and enterprise systems. Experienced in IT audits, system monitoring, and customer-focused technical support.
+I am a proactive and organized information technology professional with a background in web development, IT operations, and cybersecurity. I possess analytical, communication, and stakeholder management skills. I have experience in ITGC and systems auditing, full-stack development, along with a solid understanding of IAM, CSF, and compliance. </p>
 </p>
 </div>
 
 <div class="section">
 <h2>Core Skills</h2>
 <ul>
-<li>IT General Controls (ITGC) </li>
-<li>Cybersecurity Risk Awareness</li>
-<li>System Monitoring & Reporting</li>
-<li>Customer Support & Communication</li>
-<li>Level 1 & Level 2 Service Desk Support</li>
-<li>Incident & Request Management</li>
-<li>Microsoft 365 (Outlook, Teams, Office Apps)</li>
+<li>IT General Controls (ITGC) & Systems Auditing</li>
+<li>Vulnerability Assessment & Penetration Testing Principles OWASP</li>
+<li>Identity & Access Management (IAM) & Data Classification</li>
+<li>Web Development & Full-Stack Programming</li>
+<li>Customer Support & Technical Communication</li>
+<li>Microsoft 365 (Outlook, Teams, Office Apps) & Azure VMs</li>
 <li>Ticketing Systems (PMS / ITSM workflows)</li>
-<li>Hardware & Software Troubleshooting</li>
-<li>Network Connectivity Support</li>
-<li>User Account & Access Support</li>
-
+<li>Hardware, Software & Network Connectivity Troubleshooting</li>
 </ul>
 </div>
 
 <div class="section">
 <h2>Professional Experience</h2>
 
+<div class="job">
+<div class="title">Information Security Consultant</div>
+<div class="sub">RSM Australia | Feb 2025 – Present</div>
+<p>Cybersecurity Consultant at RSM Australia, providing security advisory services to clients in the healthcare, government, mining, and education sectors. I help organisations assess their security posture, improve compliance, and implement practical security solutions.</p>    
+<ul>
+<li>Defined, implemented, and maintained information security policies, standards, and controls</li>
+<li>Performed ITGC and IT Application Control audits</li>
+<li>Analysed system logs, user access lists, and network datasets</li>
+<li>Supported cybersecurity awareness training for staff and executives</li>
+<li>Identified security vulnerabilities and recommended technical improvements</li>
+<li>Support governance, compliance, audit, and third-party risk management processes.</li>
+</ul>
+</div>
 
 <div class="job">
 <div class="title">Guest Service Coordinator (Technical Support Functions)</div>
-<div class="sub">Crown Towers Perth | Oct 2018 – Present</div>
+<div class="sub">Crown Towers Perth | Oct 2018 – Feb 2025</div>
 <ul>
 <li>Managed service requests using property management and ticketing systems</li>
 <li>Logged, tracked, and resolved technical and operational incidents</li>
@@ -110,17 +186,6 @@ IT Service Desk and Cybersecurity professional with experience in Level 1–2 su
 <li>Coordinated with IT, maintenance, and operations teams for issue resolution</li>
 <li>Monitored system performance reports and identified recurring technical issues</li>
 <li>Trained staff on ticketing systems and service workflows</li>
-</ul>
-</div>
-<div class="job">
-<div class="title">GRC Specialist</div>
-<div class="sub">RSM Australia | Feb 2025 – June 2026</div>
-<ul>
-<li>Conducted IT risk assessments, cyber risk identification, and remediation planning</li>
-<li>Performed ITGC and IT Application Control audits</li>
-<li>Analysed system logs, user access lists, and network datasets</li>
-<li>Supported cybersecurity awareness training for staff and executives</li>
-<li>Identified security vulnerabilities and recommended technical improvements</li>
 </ul>
 </div>
 
@@ -163,14 +228,78 @@ IT Service Desk and Cybersecurity professional with experience in Level 1–2 su
 <div class="section">
 <h2>Technical Tools & Exposure</h2>
 <ul>
-<li>Microsoft 365 (Outlook, Teams, Word, Excel)</li>
+<li>Microsoft 365 & Cloud Environments (Azure Virtual Machines)</li>
 <li>Ticketing Systems (ITSM-style workflows, PMS systems)</li>
-<li>Basic Networking & Infrastructure Support</li>
-<li>Cybersecurity Tools (audit & risk analysis exposure)</li>
+<li>Network Infrastructure & Connectivity Support</li>
+<li>Cybersecurity & PenTesting Frameworks (Reconnaissance, Scanning, Exploitation)</li>
+<li>Emerging Tech Foundations (Machine Learning, Generative AI Security & Ethics)</li>
 </ul>
 </div>
 
-<!-- DOWNLOAD BUTTON -->
+<div class="section">
+<h2>Relevant Certifications</h2>
+<p style="font-size: 14px; margin-bottom: 10px;">
+    Verified via <a href="https://skillsoft.digitalbadges.skillsoft.com/profile/marcocavani613898/wallet" target="_blank">Skillsoft Digital Badges Wallet</a>. CompTIA Security+ (In Progress).
+</p>
+
+<div class="vendor-header">ISACA - Information Systems Audit and Control Association</div>
+<p style="font-style: italic; font-size: 14px; margin: 2px 0;">Certified Information Systems Auditor (CISA) Curriculum</p>
+<table class="cert-table">
+    <thead>
+        <tr>
+            <th>Course Title</th>
+            <th>Credential ID</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr><td>CISA 2022: Auditing, Data Analysis, & Controls</td><td>136404748</td></tr>
+        <tr><td>CISA 2022: Business Continuity</td><td>136629729</td></tr>
+        <tr><td>CISA 2022: Continuous Monitoring</td><td>136638956</td></tr>
+        <tr><td>CISA 2022: Data Privacy</td><td>136529328</td></tr>
+        <tr><td>CISA 2022: Data Storage & Malware</td><td>136629301</td></tr>
+        <tr><td>CISA 2022: Digital Evidence Gathering</td><td>136638085</td></tr>
+        <tr><td>CISA 2022: IAM & Data Classification</td><td>136620336</td></tr>
+        <tr><td>CISA 2022: IT Management Frameworks, Regulations, & Standards</td><td>136405807</td></tr>
+        <tr><td>CISA 2022: IT Resources & Monitoring</td><td>136406539</td></tr>
+        <tr><td>CISA 2022: Information Systems Management</td><td>136409836</td></tr>
+        <tr><td>CISA 2022: Projects, Development, & Testing</td><td>136408776</td></tr>
+        <tr><td>CISA 2022: Auditing Scenarios</td><td>136640652</td></tr>
+        <tr><td>CISA 2022: Protecting Digital Assets</td><td>136627414</td></tr>
+        <tr><td>CISA 2022: Protecting Information Assets</td><td>136621155</td></tr>
+        <tr><td>CISA 2022: Securing Networks & IT Assets</td><td>136620740</td></tr>
+        <tr><td>CISA 2022: System Development & Vulnerability Testing</td><td>136637263</td></tr>
+    </tbody>
+</table>
+
+<div class="vendor-header">CompTIA - Computing Technology Industry Association</div>
+<p style="font-style: italic; font-size: 14px; margin: 2px 0;">PenTest+ & Cybersecurity Analyst (CySA+) Curriculums</p>
+<table class="cert-table">
+    <thead>
+        <tr>
+            <th>Course Title</th>
+            <th>Credential ID</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr><td>CompTIA PenTest+: Passive Reconnaissance</td><td>137087451</td></tr>
+        <tr><td>CompTIA PenTest+: Active Reconnaissance</td><td>137088516</td></tr>
+        <tr><td>CompTIA PenTest+: Application-based Attacks</td><td>137192482</td></tr>
+        <tr><td>CompTIA PenTest+: Attacks on Cloud Technologies</td><td>137192645</td></tr>
+        <tr><td>CompTIA PenTest+: Attacks on Specialized Systems</td><td>138214181</td></tr>
+        <tr><td>CompTIA PenTest+: Network Attacks & Exploits</td><td>137090898</td></tr>
+        <tr><td>CompTIA PenTest+: Post-Exploitation Techniques</td><td>138215918</td></tr>
+        <tr><td>CompTIA PenTest+: Professionalism & Integrity</td><td>137084284</td></tr>
+        <tr><td>CompTIA PenTest+: Scoping & Engagement</td><td>137082195</td></tr>
+        <tr><td>CompTIA PenTest+: Social Engineering Attacks</td><td>138215311</td></tr>
+        <tr><td>CompTIA PenTest+: Vulnerability Scanning</td><td>137089607</td></tr>
+        <tr><td>CompTIA PenTest+: Wireless Attacks</td><td>137190865</td></tr>
+        <tr><td>CompTIA Cybersecurity Analyst+: Network Scanning & Traffic Analysis</td><td>124768790</td></tr>
+        <tr><td>CompTIA Cybersecurity Analyst+: Threat Monitoring</td><td>124775162</td></tr>
+        <tr><td>Threat Intelligence & Attribution Best Practices: Attribution Analysis</td><td>124820963</td></tr>
+    </tbody>
+</table>
+</div> 
+
 <div class="no-print">
     <button class="download-btn" onclick="window.print()">
         Download PDF
